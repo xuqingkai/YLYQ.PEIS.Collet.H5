@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>演示</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/uikit.css" rel="stylesheet">
+    <script src="./js/uikit.js"></script>
+    <script src="./js/uikit-icons.js"></script>
+    <style>
+        li{font-size: 18px;font-weight: bolder;}
+    </style>
+</head>
+<body >
+    <ul uk-tab>
+        <li><a href="#"><span uk-icon="icon:  list"></span> 列表</a></li>
+        <li class="uk-active"><a href="#"><span uk-icon="icon: user"></span> 新建</a></li>
+        <li><a href="#"><span uk-icon="icon: cog"></span> 设置</a></li>
+    </ul>
+
+    <div class="uk-switcher">
+        <div>
+            <table class="uk-table uk-table-striped uk-table-hover uk-table-responsive uk-text-nowrap">
+                <thead>
+                    <tr>
+                        <th>体检号</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th>年龄</th>
+                        <th>生日</th>
+                        <th>证件</th>
+                        <th>血压</th>
+                        <th>时间</th>
+                        <th>上传</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>23053110001</td>
+                        <td>测试员</td>
+                        <td>男</td>
+                        <td>65岁</td>
+                        <td>1955-05-05</td>
+                        <td>370831195505051239</td>
+                        <td>128/80，125/85</td>
+                        <td>05-31 12:12</td>
+                        <td>√</td>
+                    </tr>
+                    <tr>
+                        <td>23053110001</td>
+                        <td>测试员</td>
+                        <td>男</td>
+                        <td>65岁</td>
+                        <td>1955-05-05</td>
+                        <td>370831195505051239</td>
+                        <td>128/80，125/85</td>
+                        <td>05-31 12:12</td>
+                        <td>√</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="uk-card uk-card-default">
+
+            <div class="uk-grid-small" uk-grid>
+                <div uk-grid>
+                    <div class="uk-width-1-2@s uk-width-auto@s" style="text-align: center;">
+                        <img class="uk-border-circle" width="100" height="100" src="./img/icon-male.png"><br />
+                        <a class="uk-button uk-button-default" href="">23053110001</a>
+                    </div>
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="姓名">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <label><input class="uk-radio" type="radio" name="radio2" checked> 男</label>
+                            <label><input class="uk-radio" type="radio" name="radio2"> 女</label>
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="年龄">
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="text" placeholder="证件号">
+                </div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="text" placeholder="地址">
+                </div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input" type="text" placeholder="心率">
+                </div>
+                <div class="uk-width-1-1 uk-grid-small" uk-grid>
+                    <div class="uk-width-1-2">
+                        <input class="uk-input" type="text" placeholder="收缩压（左）">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <input class="uk-input" type="text" placeholder="舒张压（左）">
+                    </div>
+                </div>
+                <div class="uk-width-1-1 uk-grid-small" uk-grid>
+                    <div class="uk-width-1-2">
+                        <input class="uk-input" type="text" placeholder="收缩压（右）">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <input class="uk-input" type="text" placeholder="舒张压（右）">
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+        <div>Bazinga! <a href="#" uk-switcher-item="previous">Previous item</a></div>
+        <div>Bazinga! <a href="#" uk-switcher-item="previous">Previous item</a></div>
+    </div>
+    <script>
+        
+      </script>
+
+</body>
+</html>
